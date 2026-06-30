@@ -1,0 +1,9 @@
+# Docker MySQL data
+data/
+
+# File database export (opsional)
+*.sql
+
+# File sistem
+.DS_Store
+Thumbs.db
