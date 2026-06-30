@@ -72,7 +72,7 @@ body{
 }
 
 .header-text h2{
-    font-size:20px;
+    font-size:18px;
     margin-bottom:3px;
 }
 
@@ -115,7 +115,7 @@ body{
 .sidebar a:hover,
 .sidebar a.active{
     background:#F8A01B;
-    color:#030C4D;
+    color:white;
 }
 
 .sidebar a.keluar{
@@ -288,6 +288,63 @@ table tr:hover{
     background:#F8A01B;
     color:#030C4D;
 }
+
+.btn-tambah{
+
+    background:#2ecc71;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:6px;
+    display:inline-block;
+    margin-bottom:20px;
+    font-weight:bold;
+
+}
+
+.btn-tambah:hover{
+
+    background:#27ae60;
+
+}
+
+.btn-edit{
+
+    background:#F8A01B;
+    color:#030C4D;
+    padding:8px 14px;
+    border-radius:5px;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:bold;
+
+}
+
+.btn-edit:hover{
+
+    background:#030C4D;
+    color:white;
+
+}
+
+.btn-hapus{
+
+    background:#e74c3c;
+    color:white;
+    padding:8px 14px;
+    border-radius:5px;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:bold;
+
+}
+
+.btn-hapus:hover{
+
+    background:#c0392b;
+
+}
+
     </style>
 </head>
 <body>
@@ -305,9 +362,28 @@ table tr:hover{
     <div class="main-container">
         <!-- SIDEBAR -->
         <div class="sidebar">
-            <a href="admin.php" class="active"><i class="fa fa-tachometer-alt"></i> Dashboard</a>
-            <a href="logout.php" class="keluar"><i class="fa fa-sign-out-alt"></i> Keluar</a>
-        </div>
+
+        <a href="admin.php">
+            <i class="fa fa-tachometer-alt"></i>
+            Dashboard
+        </a>
+
+        <a href="buku.php" class="active">
+            <i class="fa fa-book"></i>
+            Kelola Buku
+        </a>
+
+        <a href="anggota.php">
+            <i class="fa fa-users"></i>
+            Kelola Anggota
+        </a>
+
+        <a href="logout.php" class="keluar">
+            <i class="fa fa-sign-out-alt"></i>
+            Keluar
+        </a>
+
+    </div>
 
         <!-- CONTENT AREA -->
         <div class="content">
