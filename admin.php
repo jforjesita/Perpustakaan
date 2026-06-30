@@ -296,8 +296,9 @@ table tr:hover{
         <img src="logo.png" alt="Logo">
         <div class="header-text">
             <h2>Sistem Peminjaman Buku Perpustakaan Kampus</h2>
+            <p>Universitas Halu Oleo</p>
             <p>Jl. HEA Mokodompit No.1, Kendari, Sulawesi Tenggara</p>
-            <p>Terakreditasi "A" | Universitas Halu Oleo</p>
+            
         </div>
     </div>
 

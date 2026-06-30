@@ -1,5 +1,5 @@
 <?php
 session_start();
-$conn = mysqli_connect("localhost", "root", "", "perpustakaan_db");
+$conn = mysqli_connect("mysql", "root", "root", "perpustakaan_db");
 if (!$conn) die("Koneksi gagal");
 ?>
